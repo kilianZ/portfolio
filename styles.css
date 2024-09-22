@@ -1,0 +1,55 @@
+
+
+:root {
+    --bg-color: #272932;
+    --h1-color: #9E90A2;
+    --h1-color: #828489;
+    --h2-color: #4D7EA8;
+    --text-color: #B6C2D9;
+
+    --bg-color: #272932;
+    --h1-color: #FFB7FF;
+    --h2-color: #7EB5CC;
+    --h1-color: #4D7EA8;
+    --text-color: #CECFC7;
+    --text-color: #7fd1b9;
+
+
+    /*
+    --font-primary: 'Roboto', sans-serif;      
+    --font-secondary: 'Merriweather', serif;  
+    --font-accent: 'Montserrat', sans-serif;  
+    */
+
+    --font-primary: 'Source Code Pro', monospace;  /* Monospace font for coding/tech vibe */
+    --font-secondary: 'Orbitron', sans-serif;     /* Futuristic sans-serif font for headings */
+    --font-accent: 'Rajdhani', sans-serif;        /* Clean, geometric sans-serif for accents */
+  
+    background-color: var(--bg-color);
+  }
+  
+
+body {
+    margin: 40px auto;
+    max-width: 650px;
+    line-height: 1.6;
+    font-family: var(--font-primary);
+    font-size: 18px;
+    color: var(--text-color);
+    padding: 0 10px;
+}
+
+h1 {
+    font-family: var(--font-secondary);
+    font-size: 3rem;
+    color: var(--h1-color);
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: var(--font-secondary);
+    font-size: 1.2rem;
+    color: var(--h2-color)
+}
+
