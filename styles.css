@@ -1,19 +1,18 @@
 
 
 :root {
-    --bg-color: #272932;
+    /* --bg-color: #272932;
     --h1-color: #9E90A2;
     --h1-color: #828489;
     --h2-color: #4D7EA8;
-    --text-color: #B6C2D9;
+    --text-color: #B6C2D9; */
 
     --bg-color: #272932;
-    --h1-color: #FFB7FF;
+    /* --h1-color: #FFB7FF; */
     --h2-color: #7EB5CC;
     --h1-color: #4D7EA8;
-    --text-color: #CECFC7;
+    /* --text-color: #CECFC7; */
     --text-color: #7fd1b9;
-
 
     /*
     --font-primary: 'Roboto', sans-serif;      
@@ -21,10 +20,24 @@
     --font-accent: 'Montserrat', sans-serif;  
     */
 
-    --font-primary: 'Source Code Pro', monospace;  /* Monospace font for coding/tech vibe */
-    --font-secondary: 'Orbitron', sans-serif;     /* Futuristic sans-serif font for headings */
-    --font-accent: 'Rajdhani', sans-serif;        /* Clean, geometric sans-serif for accents */
-  
+
+    /* FONTS 
+     * Monospace font for coding/tech vibe 
+     * Futuristic sans-serif font for headings 
+     * Clean, geometric sans-serif for accents 
+
+    --font-primary: 'Source Code Pro', monospace;  
+    --font-secondary: 'Orbitron', sans-serif;     
+    --font-accent: 'Rajdhani', sans-serif;    
+    */
+    
+    --font-secondary: 'Helvetica', sans-serif;
+    --font-primary: 'Helvetica Neue';
+    --font-primary: 'Source Code Pro', monospace; 
+    --font-accent: 'Montserrat', sans-serif; 
+
+
+
     background-color: var(--bg-color);
   }
   
