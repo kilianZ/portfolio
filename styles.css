@@ -1,48 +1,20 @@
+/* styles.css */
 
-
+/* Root variables for colors and fonts */
 :root {
-    /* --bg-color: #272932;
-    --h1-color: #9E90A2;
-    --h1-color: #828489;
-    --h2-color: #4D7EA8;
-    --text-color: #B6C2D9; */
-
     --bg-color: #272932;
-    /* --h1-color: #FFB7FF; */
     --h2-color: #7EB5CC;
     --h1-color: #4D7EA8;
-    /* --text-color: #CECFC7; */
     --text-color: #7fd1b9;
-
-    /*
-    --font-primary: 'Roboto', sans-serif;      
-    --font-secondary: 'Merriweather', serif;  
-    --font-accent: 'Montserrat', sans-serif;  
-    */
-
-
-    /* FONTS 
-     * Monospace font for coding/tech vibe 
-     * Futuristic sans-serif font for headings 
-     * Clean, geometric sans-serif for accents 
-
-    --font-primary: 'Source Code Pro', monospace;  
-    --font-secondary: 'Orbitron', sans-serif;     
-    --font-accent: 'Rajdhani', sans-serif;    
-    */
-    
+  
     --font-secondary: 'Helvetica', sans-serif;
-    --font-primary: 'Helvetica Neue';
-    --font-primary: 'Source Code Pro', monospace; 
-    --font-accent: 'Montserrat', sans-serif; 
-
-
-
+    --font-primary: 'Source Code Pro', monospace;
+    --font-accent: 'Montserrat', sans-serif;
+  
     background-color: var(--bg-color);
   }
   
-
-body {
+  body {
     margin: 40px auto;
     max-width: 650px;
     line-height: 1.6;
@@ -50,19 +22,52 @@ body {
     font-size: 18px;
     color: var(--text-color);
     padding: 0 10px;
-}
-
-h1 {
+  }
+  
+  h1 {
     font-family: var(--font-secondary);
     font-size: 3rem;
     color: var(--h1-color);
     margin: 0;
     padding: 0;
-}
-
-h2 {
+  }
+  
+  h2 {
     font-family: var(--font-secondary);
     font-size: 1.2rem;
-    color: var(--h2-color)
-}
-
+    color: var(--h2-color);
+  }
+  
+  /* Projects Section Layout */
+  #projects-section {
+    margin-top: 40px;
+  }
+  
+  #filter-container {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  #filter-container button {
+    background-color: var(--h2-color);
+    color: var(--bg-color);
+    border: none;
+    padding: 8px 12px;
+    margin: 0 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Highlight the "active" or hovered filter button */
+  #filter-container button.active,
+  #filter-container button:hover {
+    background-color: var(--h1-color);
+  }
+  
+  /* Main container for project cards */
+  #projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
